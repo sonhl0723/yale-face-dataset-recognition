@@ -11,14 +11,14 @@ from torch import optim
 
 parser = argparse.ArgumentParser(description="Recognize using CNN")
 
-parser.add_argument("--execTrain", type=int, default=0,
-                help="Decide whether to train with trainset")
-parser.add_argument("--lr", type=float, default=0.001, metavar="L",
-                help="Learning Rate")
-parser.add_argument("--saved", type=int, default=0, metavar="L",
-                help="Learning Rate")
+parser.add_argument("--execTrain", type=int, default=0, 
+                    help="Decide whether to train with trainset")
+parser.add_argument("--lr", type=float, default=0.001,
+                    help="Learning Rate")
+parser.add_argument("--saved", type=int, default=0,
+                    help="Save Model Option")
 
-args = parser.parse_args() 
+args = parser.parse_args()
 
 def main(args):
     dataLoad.load()
