@@ -36,7 +36,7 @@ def preprocessing():
 
     batch_size = 16
 
-    yaledata = {'train_load' : DataLoader(train_dataset, batch_size = batch_size, shuffle=True),
+    yaledata = {'train_load' : DataLoader(train_dataset, batch_size = batch_size, shuffle=False),
                 'test_load' : DataLoader(test_dataset, batch_size = batch_size)}
 
     return yaledata
