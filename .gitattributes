@@ -1,1 +1,2 @@
 model/model.pt filter=lfs diff=lfs merge=lfs -text
+model/fgm_model.pt filter=lfs diff=lfs merge=lfs -text
