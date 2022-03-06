@@ -1,3 +1,5 @@
 .DS_Store
 yalefacedataset_Recognition.key
 src/model.pt
+.gitattributes
+.ipynb_checkpoints
