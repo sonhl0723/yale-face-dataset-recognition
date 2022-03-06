@@ -7,10 +7,15 @@ import matplotlib.pyplot as plt
 from torchvision import transforms, datasets
 import numpy as np
 from PIL import Image
+import argparse
 
 def main():
+    parser = argparse.ArgumentParser(description="Recognize using CNN")
+    parser.add_argument("--model_path", type=str, default='model.pt',  help="The path to the model to demonstrate")
+    args = vars(parser.parse_args())
+
     model=Network()
-    model=torch.load('./model.pt')
+    model=torch.load('../model/'+args['model_path'])
     model.eval()
 
     trans = transforms.Compose([transforms.Resize((150,150)),

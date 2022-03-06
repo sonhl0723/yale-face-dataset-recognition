@@ -24,4 +24,4 @@ def main(model, optimizer, dataset, isSave):
         print('Train Epoch: {} \tLoss: {:.6f}'.format(i, np.mean(loss_data)))
 
     if isSave:
-        torch.save(model, './model.pt')
+        torch.save(model, '../model/model.pt')
