@@ -22,7 +22,7 @@
   2. source bin/activate
   3. pip install -r requirements.txt
 - Train a model and Save as model.pt & Test accuracy
-  1. python main.py --execTrain=1 --saved=1
+  1. python main.py --execTrain 1 --saved 1
        - If don't want to save the model, ignore --saved option
 - Demo
   - python demo.py
