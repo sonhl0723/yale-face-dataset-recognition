@@ -31,15 +31,22 @@
 ### Original Model
 <p align="center"><img src="./readme_img/model.png" width="80%" height="80%">
 
-- Kernel Size = 5
-- Stride = 2
-- Final Output **#** = 15
+> Kernel Size = 5<br>
+> Stride = 2<br>
+> Final Output **#** = 15
+
 
 ### Model trained with FGM Examples
 <p align="center"><img src="./readme_img/FGM_example.png" width="70%" height="70%">
 
+> Create FGM Adversarial Example by using **art.attacks.evasion.FastGradientMethod**<br>
+> The training method was carried out as shown in **"EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES"**.
+
 ### Model trained with PGD Examples
 <p align="center"><img src="./readme_img/PGD_example.png" width="70%" height="70%">
+
+> Create FGM Adversarial Example by using **art.attacks.evasion.ProjectedGradientDescent**<br>
+> The training method was carried out as shown in **"Towards Deep Learning Models Resistant to Adversarial Attacks"**.
 
 ## Performance
 - Epoch : 50 / Learning Rate : 0.01
@@ -59,3 +66,4 @@
 - Alexey Kurakin, Ian J. Goodfellow, Samy Bengio, "ADVERSARIAL EXAMPLES IN THE PHYSICAL WORLD", ICLR 2017
 - Aleksander Ma ̨dry, Aleksandar Makelov, Ludwig Schmidt, "Towards Deep Learning Models Resistant to Adversarial Attacks", stat.ML 4 Sep 2019
 - UCSD Computer Vision, Yale Face Database [Download](http://vision.ucsd.edu/content/yale-face-database)
+- Adversarial-Robustness-Toolbox [Link](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html)
