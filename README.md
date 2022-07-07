@@ -2,8 +2,8 @@
   - [Manual](#manual)
   - [Model Architecture](#model)
   - [Algorithm](#algorithm)
-  - [Performance](#performance)
-  - [Reference & Demo](#reference-&-demo)
+  - [Performance & Demo](#performance--demo)
+  - [Reference](#reference)
   - [Evasion Examples](#evasion-examples)
 
 ## Manual
@@ -62,6 +62,7 @@
 |FGM Examples|0.5|__0.941__|__0.941__|
 |BIM Examples|0.058|__0.941__|__0.941__|
 |PGD Examples|0.029|0.852|__0.970__|
+
 [More Details for Performance](https://github.com/sonhl0723/yale-face-dataset-recognition/blob/main/Evasion_Test.ipynb)
 
 ## Reference
